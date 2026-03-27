@@ -140,7 +140,7 @@ export default function NFCAPProfessionalHomepage() {
               alt="Training environment"
               className="absolute inset-0 h-full w-full object-cover"
             />
-            <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(18,39,74,0.55)_0%,rgba(18,39,74,0.35)_32%,rgba(18,39,74,0.08)_68%,rgba(18,39,74,0.00)_100%)]" />
+            
             <div className="relative px-8 py-10 text-white">
               <h2 className="max-w-[980px] text-[28px] font-bold leading-tight drop-shadow-[0_2px_6px_rgba(0,0,0,0.3)] md:text-[34px]">
                 Preparing a highly skilled, dependable workforce in collaboration
