@@ -1,4 +1,7 @@
 export default function NFCAPProfessionalHomepage() {
+
+  const basePath = process.env.NODE_ENV === "production" ? "/nfcap-site" : "";
+
   const stats = [
     { value: '100+', label: 'Apprentices trained' },
     { value: '5', label: 'States operating' },
@@ -29,19 +32,19 @@ export default function NFCAPProfessionalHomepage() {
       name: 'Brittney',
       desc: 'Tile setter → rapidly growing contractor track',
       image:
-        '/brittney.jpg',
+        `${basePath}/brittney.jpg`,
     },
     {
       name: 'Andrea',
       desc: 'Rising apprentice → building a strong career path',
       image:
-        '/andrea.jpg',
+        `${basePath}/andrea.jpg`,
     },
     {
       name: 'Jeremy',
       desc: 'Hands-on installer → advancing with industry tools',
       image:
-        '/jeremy.jpg',
+        `${basePath}/jeremy.jpg`,
     },
   ];
 
@@ -50,7 +53,7 @@ export default function NFCAPProfessionalHomepage() {
       <div className="mx-auto max-w-[1400px] overflow-hidden rounded-[10px] border border-slate-300 bg-[#f8f7f8] shadow-[0_18px_55px_rgba(15,23,42,0.12)]">
         <header className="flex items-center justify-between border-b border-slate-200 bg-white px-8 py-4">
           <div className="flex items-center gap-4">
-            <img src="/logo.png" alt="NFCAP Logo" className="h-10 w-auto" />
+            <img src={`${basePath}/logo.png`} alt="NFCAP Logo" className="h-10 w-auto" />
           </div>
 
           <nav className="hidden items-center gap-9 text-[15px] font-medium text-slate-700 md:flex">
