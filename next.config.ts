@@ -1,10 +1,6 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+const nextConfig = {
   output: "export",
   images: { unoptimized: true },
-  basePath: "/nfcap-site",
-  assetPrefix: "/nfcap-site/",
 };
 
 export default nextConfig;
