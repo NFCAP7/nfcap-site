@@ -80,7 +80,7 @@ export default function NFCAPProfessionalHomepage() {
 
         <section className="relative h-[575px] overflow-hidden">
           <img
-            src="/hero.jpg"
+            src={`${basePath}/hero.jpg`}
             alt="NFCAP training facility"
             className="absolute inset-0 h-full w-full object-cover"
           />
@@ -136,7 +136,7 @@ export default function NFCAPProfessionalHomepage() {
         >
           <div className="relative h-[300px] overflow-hidden">
             <img
-              src="/hero.jpg"
+              src={`${basePath}/hero.jpg`}
               alt="Training environment"
               className="absolute inset-0 h-full w-full object-cover"
             />
