@@ -79,33 +79,41 @@ export default function NFCAPProfessionalHomepage() {
         </header>
 
         <section className="relative h-[575px] overflow-hidden">
-          <img
-            src={`${basePath}/hero.jpg`}
-            alt="NFCAP training facility"
-            className="absolute inset-0 h-full w-full object-cover object-[center_30%]"
-          />
-          <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(18,39,74,0.55)_0%,rgba(18,39,74,0.35)_32%,rgba(18,39,74,0.08)_68%,rgba(18,39,74,0.00)_100%)]" />
-          <div className="relative flex h-full items-start px-10 pt-16">
-            <div className="max-w-[720px] text-white">
-              <h1 className="max-w-[650px] text-[68px] font-black leading-[1.02] tracking-[-0.04em] drop-shadow-[0_2px_8px_rgba(0,0,0,0.3)]">
-                Building Skilled Careers.{' '}
-                <span className="text-[#d9d5ea]">Transform futures.</span>
-              </h1>
-              <p className="mt-7 max-w-[760px] text-[20px] leading-9 text-white/95 drop-shadow-[0_2px_6px_rgba(0,0,0,0.25)]">
-                Federally recognized apprenticeship program connecting Job Corps
-                graduates to careers in flooring.
-              </p>
-              <div className="mt-8 flex gap-4">
-                <a href="mailto:carlos@nfcap.org" className="rounded-md bg-[#efc44f] px-8 py-4 text-[18px] font-bold text-slate-900 shadow-md inline-block">
-                  Apply for Apprenticeship
-                </a>
-                <a href="mailto:carlos@nfcap.org" className="rounded-md bg-[#163b73] px-8 py-4 text-[18px] font-bold text-white shadow-md inline-block">
-                  Partner with Us
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
+  <img
+    src={`${basePath}/hero.jpg`}
+    alt="NFCAP training facility"
+    className="absolute inset-0 h-full w-full object-cover object-center z-0"
+  />
+
+  <div className="absolute inset-0 z-10 bg-gradient-to-r from-[#12274a]/35 via-[#12274a]/10 to-transparent" />
+
+  <div className="relative z-20 flex h-full items-start px-10 pt-16">
+    <div className="max-w-[720px] text-white">
+      <h1 className="max-w-[650px] text-[68px] font-black leading-[1.02] tracking-[-0.04em] drop-shadow-[0_2px_8px_rgba(0,0,0,0.3)]">
+        Building Skilled Careers.{" "}
+        <span className="text-[#d9d5ea]">Transform futures.</span>
+      </h1>
+      <p className="mt-7 max-w-[760px] text-[20px] leading-9 text-white/95 drop-shadow-[0_2px_6px_rgba(0,0,0,0.25)]">
+        Federally recognized apprenticeship program connecting Job Corps
+        graduates to careers in flooring.
+      </p>
+      <div className="mt-8 flex gap-4">
+        <a
+          href="mailto:carlos@nfcap.org"
+          className="rounded-md bg-[#efc44f] px-8 py-4 text-[18px] font-bold text-slate-900 shadow-md inline-block"
+        >
+          Apply for Apprenticeship
+        </a>
+        <a
+          href="mailto:carlos@nfcap.org"
+          className="rounded-md bg-[#163b73] px-8 py-4 text-[18px] font-bold text-white shadow-md inline-block"
+        >
+          Partner with Us
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
 
         <section className="bg-white px-10 py-7">
           <div className="text-[16px] font-semibold text-[#1d457d]">
