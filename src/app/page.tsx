@@ -32,19 +32,19 @@ export default function NFCAPProfessionalHomepage() {
       name: 'Brittney',
       desc: 'Tile setter → rapidly growing contractor track',
       image:
-        `${basePath}/brittney.jpg`,
+        `/brittney.jpg`,
     },
     {
       name: 'Andrea',
       desc: 'Rising apprentice → building a strong career path',
       image:
-        `${basePath}/andrea.jpg`,
+        `/andrea.jpg`,
     },
     {
       name: 'Jeremy',
       desc: 'Hands-on installer → advancing with industry tools',
       image:
-        `${basePath}/jeremy.jpg`,
+        `/jeremy.jpg`,
     },
   ];
 
@@ -53,7 +53,7 @@ export default function NFCAPProfessionalHomepage() {
       <div className="mx-auto max-w-[1400px] overflow-hidden rounded-[10px] border border-slate-300 bg-[#f8f7f8] shadow-[0_18px_55px_rgba(15,23,42,0.12)]">
         <header className="flex items-center justify-between border-b border-slate-200 bg-white px-8 py-4">
           <div className="flex items-center gap-4">
-            <img src={`${basePath}/logo.png`} alt="NFCAP Logo" className="h-10 w-auto" />
+            <img src={`/logo.png`} alt="NFCAP Logo" className="h-10 w-auto" />
           </div>
 
           <nav className="hidden items-center gap-9 text-[15px] font-medium text-slate-700 md:flex">
@@ -80,7 +80,7 @@ export default function NFCAPProfessionalHomepage() {
 
         <section className="relative h-[575px] overflow-hidden">
   <img
-    src={`${basePath}/hero.jpg`}
+    src={`/hero.jpg`}
     alt="NFCAP training facility"
     className="absolute inset-0 h-full w-full object-cover object-center z-0"
   />
@@ -94,7 +94,7 @@ export default function NFCAPProfessionalHomepage() {
         <span className="text-[#d9d5ea]">Transform futures.</span>
       </h1>
       <p className="mt-7 max-w-[760px] text-[20px] leading-9 text-white/95 drop-shadow-[0_2px_6px_rgba(0,0,0,0.25)]">
-        Federally recognized apprenticeship program connecting Job Corps
+        Federally recognized apprenticeship program connecting Youth
         graduates to careers in flooring.
       </p>
       <div className="mt-8 flex gap-4">
@@ -144,7 +144,7 @@ export default function NFCAPProfessionalHomepage() {
         >
           <div className="relative h-[300px] overflow-hidden">
             <img
-              src={`${basePath}/hero.jpg`}
+              src={`/hero.jpg`}
               alt="Training environment"
               className="absolute inset-0 h-full w-full object-cover object-[center_30%]"
             />
