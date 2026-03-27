@@ -84,7 +84,7 @@ export default function NFCAPProfessionalHomepage() {
             alt="NFCAP training facility"
             className="absolute inset-0 h-full w-full object-cover"
           />
-          <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(18,39,74,0.88)_0%,rgba(18,39,74,0.72)_32%,rgba(18,39,74,0.12)_68%,rgba(18,39,74,0.02)_100%)]" />
+          <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(18,39,74,0.55)_0%,rgba(18,39,74,0.35)_32%,rgba(18,39,74,0.08)_68%,rgba(18,39,74,0.00)_100%)]" />
           <div className="relative flex h-full items-start px-10 pt-16">
             <div className="max-w-[720px] text-white">
               <h1 className="max-w-[650px] text-[68px] font-black leading-[1.02] tracking-[-0.04em] drop-shadow-[0_2px_8px_rgba(0,0,0,0.3)]">
@@ -140,7 +140,7 @@ export default function NFCAPProfessionalHomepage() {
               alt="Training environment"
               className="absolute inset-0 h-full w-full object-cover"
             />
-            <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(18,39,74,0.82)_0%,rgba(18,39,74,0.48)_42%,rgba(18,39,74,0.12)_100%)]" />
+            <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(18,39,74,0.55)_0%,rgba(18,39,74,0.35)_32%,rgba(18,39,74,0.08)_68%,rgba(18,39,74,0.00)_100%)]" />
             <div className="relative px-8 py-10 text-white">
               <h2 className="max-w-[980px] text-[28px] font-bold leading-tight drop-shadow-[0_2px_6px_rgba(0,0,0,0.3)] md:text-[34px]">
                 Preparing a highly skilled, dependable workforce in collaboration
